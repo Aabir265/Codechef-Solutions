@@ -1,0 +1,1 @@
+In method overriding, the method name, return type, and method parameters must match between the base class method and the derived class method. This ensures that the overriding method is a valid replacement for the base class method.
