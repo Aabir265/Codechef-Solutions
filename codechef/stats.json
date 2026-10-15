@@ -1,20 +1,29 @@
 {
   "codechef": {
-    "solved": 1,
-    "star1": 1,
-    "star2_3": 0,
-    "star4_5": 0,
-    "star6_7": 0,
     "shas": {
       "OPCPP119 - Select the correct option.": {
+        "category": "star1",
+        "date": "2026-10-15T17:29:35.609Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "OPCPP121 - Select the correct option.": {
         "difficulty": "Difficulty: Easy",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Difficulty: Easy",
-        "date": "2026-10-15T17:29:35.609Z"
+        "date": "2026-10-15T17:32:24.779Z"
       }
-    }
+    },
+    "solved": 2,
+    "star1": 2,
+    "star2_3": 0,
+    "star4_5": 0,
+    "star6_7": 0
   }
 }
