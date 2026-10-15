@@ -11,17 +11,26 @@
         "tier": "1★ Beginner Level"
       },
       "OPCPP121 - Select the correct option.": {
+        "category": "star1",
+        "date": "2026-10-15T17:32:24.779Z",
         "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
         "rating": null,
         "stars": "1★",
-        "tier": "1★ Beginner Level",
+        "tier": "1★ Beginner Level"
+      },
+      "Programming - Vehicle Rental": {
+        "difficulty": "1",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level",
         "category": "star1",
-        "displayText": "Difficulty: Easy",
-        "date": "2026-10-15T17:32:24.779Z"
+        "displayText": "1 (Beginner)",
+        "date": "2026-10-15T17:48:04.479Z"
       }
     },
-    "solved": 2,
-    "star1": 2,
+    "solved": 3,
+    "star1": 3,
     "star2_3": 0,
     "star4_5": 0,
     "star6_7": 0
