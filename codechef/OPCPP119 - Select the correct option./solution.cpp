@@ -1,0 +1,1 @@
+If a derived class does not override a virtual method from the base class, the base class's implementation of the method is called when the method is invoked on an object of the derived class.
