@@ -20,18 +20,27 @@
         "tier": "1★ Beginner Level"
       },
       "Programming - Vehicle Rental": {
+        "category": "star1",
+        "date": "2026-10-15T17:48:04.479Z",
         "difficulty": "1",
+        "displayText": "1 (Beginner)",
         "rating": 1,
         "stars": "0★",
-        "tier": "Beginner Level",
-        "category": "star1",
-        "displayText": "1 (Beginner)",
-        "date": "2026-10-15T17:48:04.479Z"
+        "tier": "Beginner Level"
+      },
+      "JWHEFQ353 - JWHEFQ353": {
+        "difficulty": "Difficulty: Medium",
+        "rating": null,
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level",
+        "category": "star2_3",
+        "displayText": "Difficulty: Medium",
+        "date": "2026-10-16T17:38:37.106Z"
       }
     },
-    "solved": 3,
+    "solved": 4,
     "star1": 3,
-    "star2_3": 0,
+    "star2_3": 1,
     "star4_5": 0,
     "star6_7": 0
   }
