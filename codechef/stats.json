@@ -28,6 +28,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "JWHEFQ379 - In a binary search tree, which traversal will result in a sorted sequence of values": {
+        "category": "star1",
+        "date": "2026-10-19T12:20:21.560Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "OPCPP119 - Select the correct option.": {
         "category": "star1",
         "date": "2026-10-15T17:29:35.609Z",
@@ -73,18 +82,18 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
-      "JWHEFQ379 - In a binary search tree, which traversal will result in a sorted sequence of values": {
+      "JWHEFQ173 - What is the time complexity of merging two arrays with lengths n and m": {
         "difficulty": "Difficulty: Easy",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Difficulty: Easy",
-        "date": "2026-10-19T12:20:21.560Z"
+        "date": "2026-10-19T17:11:20.437Z"
       }
     },
-    "solved": 9,
-    "star1": 8,
+    "solved": 10,
+    "star1": 9,
     "star2_3": 1,
     "star4_5": 0,
     "star6_7": 0
