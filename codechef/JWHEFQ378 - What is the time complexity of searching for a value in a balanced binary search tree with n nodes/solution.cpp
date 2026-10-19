@@ -1,0 +1,3 @@
+The time complexity of searching for a value in a balanced binary search tree (BST) with n nodes is O(log n).
+
+This is because, in a balanced BST, the height of the tree is proportional to log n, meaning that at each step of the search, the tree is divided roughly in half. Therefore, the search operation only needs to explore a path along the height of the tree, which results in a logarithmic time complexity.
