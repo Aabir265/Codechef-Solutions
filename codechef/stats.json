@@ -28,6 +28,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "Programming - Height Balanced Binary Tree": {
+        "category": "star1",
+        "date": "2026-10-19T11:48:11.608Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - InOrder Traversal": {
         "category": "star1",
         "date": "2026-10-19T11:13:33.416Z",
@@ -46,18 +55,18 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
-      "Programming - Height Balanced Binary Tree": {
-        "difficulty": "1",
-        "rating": 1,
-        "stars": "0★",
-        "tier": "Beginner Level",
+      "JWHEFQ376 - What would be the Inorder traversal for this tree": {
+        "difficulty": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level",
         "category": "star1",
-        "displayText": "1 (Beginner)",
-        "date": "2026-10-19T11:48:11.608Z"
+        "displayText": "Difficulty: Easy",
+        "date": "2026-10-19T12:15:09.476Z"
       }
     },
-    "solved": 6,
-    "star1": 5,
+    "solved": 7,
+    "star1": 6,
     "star2_3": 1,
     "star4_5": 0,
     "star6_7": 0
