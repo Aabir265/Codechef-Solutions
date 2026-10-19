@@ -28,6 +28,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "Programming - InOrder Traversal": {
+        "category": "star1",
+        "date": "2026-10-19T11:13:33.416Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Vehicle Rental": {
         "category": "star1",
         "date": "2026-10-15T17:48:04.479Z",
@@ -37,18 +46,18 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
-      "Programming - InOrder Traversal": {
+      "Programming - Height Balanced Binary Tree": {
         "difficulty": "1",
         "rating": 1,
         "stars": "0★",
         "tier": "Beginner Level",
         "category": "star1",
         "displayText": "1 (Beginner)",
-        "date": "2026-10-19T11:13:33.416Z"
+        "date": "2026-10-19T11:48:11.608Z"
       }
     },
-    "solved": 5,
-    "star1": 4,
+    "solved": 6,
+    "star1": 5,
     "star2_3": 1,
     "star4_5": 0,
     "star6_7": 0
