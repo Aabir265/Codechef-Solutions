@@ -10,6 +10,15 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
+      "JWHEFQ376 - What would be the Inorder traversal for this tree": {
+        "category": "star1",
+        "date": "2026-10-19T12:15:09.476Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "OPCPP119 - Select the correct option.": {
         "category": "star1",
         "date": "2026-10-15T17:29:35.609Z",
@@ -55,18 +64,18 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
-      "JWHEFQ376 - What would be the Inorder traversal for this tree": {
+      "JWHEFQ378 - What is the time complexity of searching for a value in a balanced binary search tree with n nodes": {
         "difficulty": "Difficulty: Easy",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Difficulty: Easy",
-        "date": "2026-10-19T12:15:09.476Z"
+        "date": "2026-10-19T12:16:35.990Z"
       }
     },
-    "solved": 7,
-    "star1": 6,
+    "solved": 8,
+    "star1": 7,
     "star2_3": 1,
     "star4_5": 0,
     "star6_7": 0
