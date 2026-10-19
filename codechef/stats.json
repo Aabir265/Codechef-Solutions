@@ -1,6 +1,15 @@
 {
   "codechef": {
     "shas": {
+      "JWHEFQ173 - What is the time complexity of merging two arrays with lengths n and m": {
+        "category": "star1",
+        "date": "2026-10-19T17:11:20.437Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "JWHEFQ353 - JWHEFQ353": {
         "category": "star2_3",
         "date": "2026-10-16T17:38:37.106Z",
@@ -82,18 +91,18 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
-      "JWHEFQ173 - What is the time complexity of merging two arrays with lengths n and m": {
-        "difficulty": "Difficulty: Easy",
-        "rating": null,
-        "stars": "1★",
-        "tier": "1★ Beginner Level",
+      "Programming - Merging": {
+        "difficulty": "1",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level",
         "category": "star1",
-        "displayText": "Difficulty: Easy",
-        "date": "2026-10-19T17:11:20.437Z"
+        "displayText": "1 (Beginner)",
+        "date": "2026-10-19T17:21:07.440Z"
       }
     },
-    "solved": 10,
-    "star1": 9,
+    "solved": 11,
+    "star1": 10,
     "star2_3": 1,
     "star4_5": 0,
     "star6_7": 0
