@@ -1,0 +1,1 @@
+Since the left child of a node in a BST contains values smaller than the node itself, and the right child contains values larger than the node, performing an in-order traversal yields the values in ascending order.
