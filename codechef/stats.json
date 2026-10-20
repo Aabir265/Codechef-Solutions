@@ -127,6 +127,15 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
+      "QNSNAS05 - Choose the correct option": {
+        "category": "star2_3",
+        "date": "2026-10-20T08:32:48.188Z",
+        "difficulty": "Difficulty: Medium",
+        "displayText": "Difficulty: Medium",
+        "rating": null,
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level"
+      },
       "QNSNAS06 - Choose the correct option": {
         "category": "star2_3",
         "date": "2026-10-20T08:28:17.559Z",
@@ -226,20 +235,20 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "QNSNAS05 - Choose the correct option": {
-        "difficulty": "Difficulty: Medium",
+      "QNSNAS03 - Choose the correct option": {
+        "difficulty": "Difficulty: Hard",
         "rating": null,
-        "stars": "2★-3★",
-        "tier": "2★-3★ Level",
-        "category": "star2_3",
-        "displayText": "Difficulty: Medium",
-        "date": "2026-10-20T08:32:48.188Z"
+        "stars": "6★-7★",
+        "tier": "6★-7★ Level",
+        "category": "star6_7",
+        "displayText": "Difficulty: Hard",
+        "date": "2026-10-20T08:33:11.769Z"
       }
     },
-    "solved": 26,
+    "solved": 27,
     "star1": 11,
     "star2_3": 15,
     "star4_5": 0,
-    "star6_7": 0
+    "star6_7": 1
   }
 }
