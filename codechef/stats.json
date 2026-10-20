@@ -110,18 +110,27 @@
         "tier": "Beginner Level"
       },
       "XERERK02 - Choose the correct option": {
+        "category": "star2_3",
+        "date": "2026-10-20T08:01:02.351Z",
+        "difficulty": "Difficulty: Medium",
+        "displayText": "Difficulty: Medium",
+        "rating": null,
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level"
+      },
+      "QNSNAS01 - Choose the correct option": {
         "difficulty": "Difficulty: Medium",
         "rating": null,
         "stars": "2★-3★",
         "tier": "2★-3★ Level",
         "category": "star2_3",
         "displayText": "Difficulty: Medium",
-        "date": "2026-10-20T08:01:02.351Z"
+        "date": "2026-10-20T08:04:05.132Z"
       }
     },
-    "solved": 13,
+    "solved": 14,
     "star1": 10,
-    "star2_3": 3,
+    "star2_3": 4,
     "star4_5": 0,
     "star6_7": 0
   }
