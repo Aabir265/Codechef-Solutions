@@ -1,0 +1,178 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct Node {
+    int val;
+    Node* left;
+    Node* right;
+
+    Node(int val) {
+        this->val = val;
+        left = right = NULL;
+    }
+};
+
+class Solution {
+  public:
+  Node*helper(vector<int> &nums,int st, int end){
+      if(st>end){
+          return NULL;
+      }
+      int mid=st+(end-st)/2;
+      Node*root=new Node(nums[mid]);
+      
+      root->left=helper(nums,st,mid-1);
+      root->right=helper(nums,mid+1,end);
+      return root;
+  }
+    Node* createBST(vector<int> &nums) {
+        // your code goes here
+        return helper(nums,0,nums.size()-1);
+        
+    }
+};
+
+
+int height(Node* node) {
+    if (node == NULL)
+        return 0;
+
+    return 1 + max(height(node->left), height(node->right));
+}
+
+bool isBalanced(Node* root) {
+    int lh;
+    int rh;
+
+    if (root == NULL)
+        return 1;
+
+    lh = height(root->left);
+    rh = height(root->right);
+
+    if (abs(lh - rh) <= 1 && isBalanced(root->left) && isBalanced(root->right))
+        return 1;
+
+    return 0;
+}
+
+void inOrder(Node* root, vector<int> &nodes){
+    if(root == NULL)
+      return;
+    inOrder(root -> left, nodes);
+    nodes.push_back(root->val);
+    inOrder(root -> right, nodes);
+}
+
+Node* buildBinaryTree(vector<pair<pair<int, int>, char>>& edges) {
+    unordered_map<int, Node*> nodes;
+    unordered_set<Node*> children;
+
+    // Create nodes for each edge
+    for (const auto& edge : edges) {
+        int parentVal = edge.first.first, childVal = edge.first.second;
+        char direction = edge.second;
+
+        Node* parentNode;
+        Node* childNode;
+
+        // Check if the parent node already exists
+        if (nodes.find(parentVal) == nodes.end()) {
+            parentNode = new Node(parentVal);
+            nodes[parentVal] = parentNode;
+        } else {
+            parentNode = nodes[parentVal];
+        }
+
+        // Similarly create the child node if not already created
+        if(nodes.find(childVal) == nodes.end()) {
+          childNode = new Node(childVal);
+          nodes[childVal] = childNode;
+        }
+        else {
+          childNode = nodes[childVal];
+        }
+        
+
+        // Attach the child node to the parent based on the direction
+        if (direction == 'L') {
+            parentNode->left = childNode;
+        } else {
+            parentNode->right = childNode;
+        }
+
+        // Update the set with the child node
+        children.insert(childNode);
+    }
+
+    // The root of the binary tree is the node without a parent
+    Node* root = NULL;
+    for (const auto& it : nodes) {
+        if (children.find(it.second) == children.end()) {
+            root = it.second;
+            break;
+        }
+    }
+    return root;
+}
+
+
+bool validateBST(Node* node, Node* &prev) {
+    if (node == NULL) return true;
+    if (!validateBST(node->left, prev)) return false;
+    if (prev != NULL && prev->val >= node->val) return false;
+    prev = node;
+    return validateBST(node->right, prev);
+}
+
+
+
+int main() {
+  ios_base::sync_with_stdio(false);
+  cin.tie(0);
+  #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+  #endif  
+  
+    int nodes;
+    cin >> nodes;
+    vector<int> bst_nodes;
+    // vector<pair<pair<int, int>, char > > edges;
+
+    set<int> unique_nodes;
+    // for(int i = 1; i < nodes; i++){
+
+    
+    Node* root = NULL; //buildBinaryTree(edges);
+
+    for(int i = 1; i <= nodes; i++){
+        int x;
+        cin >> x;
+        assert(x >= 1 && x <= 100000);
+        unique_nodes.insert(x);
+        bst_nodes.push_back(x);
+    }
+    // inOrder(root, bst_nodes);
+
+    Node* prev = NULL;
+    assert(unique_nodes.size() == nodes);
+    assert(is_sorted(bst_nodes.begin(), bst_nodes.end()));
+    assert(bst_nodes.size() == nodes);
+   
+    Solution sol;
+    root = sol.createBST(bst_nodes);
+    assert(validateBST(root, prev) == true);
+    
+    bst_nodes.clear();
+    prev = NULL;
+    inOrder(root, bst_nodes);
+    // assert(unique_nodes.size() == nodes);
+    assert(is_sorted(bst_nodes.begin(), bst_nodes.end()));
+    assert(bst_nodes.size() == nodes);
+    assert(validateBST(root, prev) == true);
+    assert(isBalanced(root) == true);
+    cout << "Successfully created BST!";
+
+ return 0;
+}
