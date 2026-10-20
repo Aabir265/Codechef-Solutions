@@ -127,6 +127,15 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
+      "XERERK06 - Choose the correct option": {
+        "category": "star2_3",
+        "date": "2026-10-20T08:22:41.373Z",
+        "difficulty": "Difficulty: Medium",
+        "displayText": "Difficulty: Medium",
+        "rating": null,
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level"
+      },
       "XERERK08 - Choose the correct option": {
         "category": "star2_3",
         "date": "2026-10-20T08:20:46.450Z",
@@ -190,19 +199,19 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "XERERK06 - Choose the correct option": {
+      "XERERK04 - Choose the correct option": {
         "difficulty": "Difficulty: Medium",
         "rating": null,
         "stars": "2★-3★",
         "tier": "2★-3★ Level",
         "category": "star2_3",
         "displayText": "Difficulty: Medium",
-        "date": "2026-10-20T08:22:41.373Z"
+        "date": "2026-10-20T08:24:08.090Z"
       }
     },
-    "solved": 22,
+    "solved": 23,
     "star1": 11,
-    "star2_3": 11,
+    "star2_3": 12,
     "star4_5": 0,
     "star6_7": 0
   }
