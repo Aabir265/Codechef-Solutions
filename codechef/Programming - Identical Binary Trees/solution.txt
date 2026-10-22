@@ -1,0 +1,81 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+const int MAXN = 100001;
+
+int left1[MAXN], right1[MAXN];
+int left2[MAXN], right2[MAXN];
+
+bool child1[MAXN], child2[MAXN];
+
+bool identical(int u, int v){
+    if(u == 0 && v == 0)
+    return true;
+    
+    if(u == 0 || v == 0)
+    return false;
+    
+    if(u!=v)
+    return false;
+    
+    return identical(left1[u], left2[v]) && identical(right1[u], right2[v]);
+}
+
+int main() {
+    int n, m;
+    cin>>n>>m;
+
+for(int i=0; i< n-1; i++){
+    int p,c;
+    char side;
+    cin>>p>>c>>side;
+    
+    if(side == 'L')
+    left1[p]=c;
+    else
+    right1[p]=c;
+    
+    child1[c]=true;
+}
+
+for(int i=0; i<m-1;i++){
+    int p,c;
+    char side;
+    cin>>p>>c>>side;
+    
+    if(side == 'L')
+    left2[p]=c;
+    else
+    right2[p]=c;
+    
+    child2[c]=true;
+}
+
+int root1 = 0, root2=0;
+
+for(int i = 1; i<MAXN; i++){
+    if(!child1[i]){
+        root1 = i;
+        break;
+    }
+}
+
+for(int i=1; i<MAXN; i++){
+    if(!child2[i]){
+        root2 = i;
+        break;
+    }
+}
+
+if(n!=m)
+cout<<"NO
+";
+else if (identical(root1, root2))
+cout<<"YES
+";
+else
+cout<<"NO
+";
+
+return 0;
+}
