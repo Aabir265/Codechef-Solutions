@@ -28,6 +28,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "JWHEFQ226 - JWHEFQ226": {
+        "category": "star1",
+        "date": "2026-10-24T12:14:02.936Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "JWHEFQ353 - JWHEFQ353": {
         "category": "star2_3",
         "date": "2026-10-16T17:38:37.106Z",
@@ -325,18 +334,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "JWHEFQ226 - JWHEFQ226": {
-        "difficulty": "Difficulty: Easy",
-        "rating": null,
-        "stars": "1★",
-        "tier": "1★ Beginner Level",
+      "Programming - Remove Duplicates from Sorted List": {
+        "difficulty": "1",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level",
         "category": "star1",
-        "displayText": "Difficulty: Easy",
-        "date": "2026-10-24T12:14:02.936Z"
+        "displayText": "1 (Beginner)",
+        "date": "2026-10-24T12:19:11.592Z"
       }
     },
-    "solved": 37,
-    "star1": 17,
+    "solved": 38,
+    "star1": 18,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
