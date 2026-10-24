@@ -1,0 +1,266 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class StoreItem
+{public:
+    string bookName;
+    StoreItem(string bookName){
+        this->bookName=bookName;
+    }
+    virtual void describe()=0;
+    virtual void purchaseBook(int)=0;
+    virtual void addBook(int)=0;
+ virtual ~StoreItem(){}  
+    
+};
+
+class Physics : public StoreItem
+{
+    string authorName;
+    int* bookNumbers;
+    int n;
+    public:
+    Physics(string bookName,string authorName,int* bookNumbers,int n):StoreItem(bookName){
+        this->authorName=authorName;
+        this->n=n;
+        this->bookNumbers=new int[n];
+        for(int i=0;i<n;i++){
+        this->bookNumbers[i]=bookNumbers[i];}
+        
+    }
+    void describe(){
+        cout<<"Book Name: "<<bookName<<endl;
+        cout<<"Author: "<<authorName<<endl;
+        cout<<"Available Book Numbers:";
+        for(int i=0;i<n;i++){
+            cout<<" "<<bookNumbers[i];
+    }
+        cout<<endl;
+    }
+    void purchaseBook(int purchasedBook){
+        for(int i=0;i<n;i++){
+            if(bookNumbers[i]==purchasedBook){
+                for(int j=i;j<n-1;j++)
+            bookNumbers[j]=bookNumbers[j+1];
+            n--;
+                    break;
+                }
+        }
+    }
+    void addBook(int newBook){
+       int* temp=new int[n+1];
+        for(int i=0;i<n;i++)
+        temp[i]=bookNumbers[i];
+        temp[n]=newBook;
+        delete[] bookNumbers;
+        bookNumbers=temp;
+        n++;
+    }
+ ~Physics(){
+     delete[] bookNumbers;
+ }
+};
+
+class Mathematics : public StoreItem
+{
+    string authorName;
+    int* bookNumbers;
+    int n;
+    public:
+    Mathematics(string bookName,string authorName,int* bookNumbers,int n):StoreItem(bookName){
+        this->authorName=authorName;
+        this->n=n;
+        this->bookNumbers=new int[n];
+        for(int i=0;i<n;i++){
+        this->bookNumbers[i]=bookNumbers[i];}
+       
+    }
+   void describe(){
+       cout<<"Book Name: "<<bookName<<endl;
+       cout<<"Author: "<<authorName<<endl;
+       cout<<"Available Book Numbers:";
+       for(int i=0;i<n;i++){
+       cout<<" "<<bookNumbers[i];}
+       cout<<endl;
+   }
+   void purchaseBook(int purchasedBook){
+       for(int i=0;i<n;i++){
+           if(bookNumbers[i]==purchasedBook){
+               for(int j=i;j<n-1;j++)
+           bookNumbers[j]=bookNumbers[j+1];
+           n--;
+               break;
+           }}
+       
+       }
+       void addBook(int newBook){
+        int* temp=new int[n+1];
+        for(int i=0;i<n;i++)
+        temp[i]=bookNumbers[i];
+        temp[n]=newBook;
+        delete[] bookNumbers;
+        bookNumbers=temp;
+        n++;
+           
+       }
+       ~Mathematics(){
+           delete[] bookNumbers;
+       }
+};
+
+class Chemistry : public StoreItem
+{   string authorName;
+    int* bookNumbers;
+    int n;
+    public:
+    Chemistry(string bookName,string authorName,int* bookNumbers,int n):StoreItem(bookName){
+        this->authorName=authorName;
+        this->n=n;
+        this->bookNumbers=new int[n];
+        for(int i=0;i<n;i++){
+        this->bookNumbers[i]=bookNumbers[i];}
+        
+    }
+   void describe(){
+       cout<<"Book Name: "<<bookName<<endl;
+       cout<<"Author: "<<authorName<<endl;
+       cout<<"Available Book Numbers:";
+       for(int i=0;i<n;i++){
+           cout<<" "<<bookNumbers[i];
+       }cout<<endl;
+   }
+   void purchaseBook(int purchasedBook){
+       for(int i=0;i<n;i++){
+       if(bookNumbers[i]==purchasedBook){
+           for(int j=i;j<n-1;j++)
+       bookNumbers[j]=bookNumbers[j+1];
+       n--;
+           break;
+       }
+   }}
+   void addBook(int newBook){
+     int *temp= new int[n+1];
+     for(int i=0;i<n;i++)
+     temp[i]=bookNumbers[i];
+     temp[n]=newBook;
+     delete[] bookNumbers;
+     bookNumbers=temp;
+     n++;
+       
+   }
+   ~Chemistry(){
+       delete[] bookNumbers;
+   }
+};
+
+class Biology : public StoreItem
+{
+   string authorName;
+   int* bookNumbers;
+   int n;
+   public:
+   Biology(string bookName,string authorName,int* bookNumbers,int n):StoreItem(bookName){
+       this->authorName=authorName;
+       this->n=n;
+       this->bookNumbers=new int[n];
+       for(int i=0;i<n;i++)
+       this->bookNumbers[i]=bookNumbers[i];
+      
+   }
+   void describe(){
+       cout<<"Book Name: "<<bookName<<endl;
+       cout<<"Author: "<<authorName<<endl;
+       cout<<"Available Book Numbers:";
+       for(int i=0;i<n;i++){
+           cout<<" "<<bookNumbers[i];
+       }
+       cout<<endl;
+   }
+   void purchaseBook(int purchasedBook){
+       for(int i=0;i<n;i++){
+           if(bookNumbers[i]==purchasedBook){
+               for(int j=i;j<n-1;j++)
+           bookNumbers[j]=bookNumbers[j+1];
+           n--;
+               break;
+           }
+       }
+   }
+   void addBook(int newBook){
+       int* temp=new int[n+1];
+       for(int i=0;i<n;i++)
+       temp[i]=bookNumbers[i];
+       temp[n]=newBook;
+       delete[] bookNumbers;
+       bookNumbers = temp;
+       n++;
+           
+   }
+   ~Biology(){
+       delete[] bookNumbers;
+   }
+};
+
+// DO NOT MODIFY THE CODE BELOW.
+
+int main()
+{
+    int subject;
+    cin >> subject;
+
+    string bookName, authorName;
+    cin >> bookName;
+    cin >> authorName;
+
+    int n;
+    cin >> n;
+
+    int *bookNumbers = new int[n];
+
+    for (int i = 0; i < n; i++)
+        cin >> bookNumbers[i];
+
+    StoreItem *book = nullptr;
+
+    switch (subject)
+    {
+    case 1:
+        book = new Physics(bookName, authorName, bookNumbers, n);
+        break;
+
+    case 2:
+        book = new Mathematics(bookName, authorName, bookNumbers, n);
+        break;
+
+    case 3:
+        book = new Chemistry(bookName, authorName, bookNumbers, n);
+        break;
+
+    case 4:
+        book = new Biology(bookName, authorName, bookNumbers, n);
+        break;
+    }
+
+    delete[] bookNumbers;
+
+    cout << "Initial Inventory:" << endl;
+    book->describe();
+
+    int purchasedBook;
+    cin >> purchasedBook;
+    book->purchaseBook(purchasedBook);
+
+    int newBook;
+    cin >> newBook;
+    book->addBook(newBook);
+
+    cout << endl;
+    cout << "Updated Inventory:" << endl;
+    book->describe();
+
+    delete book;
+
+    return 0;
+}
