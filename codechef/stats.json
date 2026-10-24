@@ -163,6 +163,15 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
+      "Programming - Remove Duplicates from Sorted List": {
+        "category": "star1",
+        "date": "2026-10-24T12:19:11.592Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Vehicle Rental": {
         "category": "star1",
         "date": "2026-10-15T17:48:04.479Z",
@@ -334,18 +343,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - Remove Duplicates from Sorted List": {
+      "Programming - Book Store Inventory Management System": {
         "difficulty": "1",
         "rating": 1,
         "stars": "0★",
         "tier": "Beginner Level",
         "category": "star1",
         "displayText": "1 (Beginner)",
-        "date": "2026-10-24T12:19:11.592Z"
+        "date": "2026-10-24T17:22:33.973Z"
       }
     },
-    "solved": 38,
-    "star1": 18,
+    "solved": 39,
+    "star1": 19,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
