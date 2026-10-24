@@ -1,0 +1,97 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Node {
+    public:
+    int value;
+    Node* next;
+    Node* prev;
+    
+    // Constructor to initialize the node with a given value
+    Node(int val): value(val), next(nullptr), prev(nullptr) {}
+};
+/*
+class Node {
+    public:
+    int value;
+    Node* next;
+    Node* prev;
+
+    Node(int val): value(val), next(nullptr), prev(nullptr) {}
+};
+*/
+
+class LinkedList {
+    public:
+    Node* head;
+    Node* tail;
+
+    void insertAtIndex(int index, int value) {
+        // Complete this function
+        Node* newNode = new Node(value);
+        if(index < 0){
+            return;
+        }
+        if(index == 0){
+            newNode->next = head;
+            if(head!=NULL){
+                head->prev = newNode;
+            }
+            else{
+                tail = newNode;
+            }
+            head = newNode;
+            return;
+
+        }
+        Node* temp = head;
+        int cnt = 0;
+        while(temp!= NULL && cnt < index-1){
+            temp = temp->next;
+            cnt++;
+        }
+        if(temp == NULL){
+            delete newNode;
+            return;
+        }
+        newNode->next = temp->next;
+        newNode->prev = temp;
+        if(temp->next != NULL){
+            temp->next->prev = newNode;
+        }else{
+            tail = newNode;
+        }
+        temp->next = newNode;
+        
+    }
+    
+    // Don't modify this function
+    void printValues() {
+        if (head == NULL) {
+            return;
+        } else {
+            Node* current = head;
+            while (current != NULL) {
+                cout << current -> value << ' ';
+                current = current -> next;
+            }
+            cout << '
+';
+        }
+    }
+
+};
+
+ int main() {
+    int n, index, val;
+    cin >> n >> index >> val;
+    
+    LinkedList* list = new LinkedList();
+    int a;
+    for (int i = 0; i < n; i++) {
+        cin >> a;
+        list -> insertAtIndex(i, a);
+    }
+    list -> insertAtIndex(index, val);
+    list -> printValues();
+}
