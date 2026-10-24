@@ -127,6 +127,15 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
+      "Programming - Insertion in Doubly Linked List": {
+        "category": "star1",
+        "date": "2026-10-24T10:48:08.461Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Merging": {
         "category": "star1",
         "date": "2026-10-19T17:21:07.440Z",
@@ -307,18 +316,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - Insertion in Doubly Linked List": {
-        "difficulty": "1",
-        "rating": 1,
-        "stars": "0★",
-        "tier": "Beginner Level",
+      "JWHEFQ224 - JWHEFQ224": {
+        "difficulty": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level",
         "category": "star1",
-        "displayText": "1 (Beginner)",
-        "date": "2026-10-24T10:48:08.461Z"
+        "displayText": "Difficulty: Easy",
+        "date": "2026-10-24T11:23:48.111Z"
       }
     },
-    "solved": 35,
-    "star1": 15,
+    "solved": 36,
+    "star1": 16,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
