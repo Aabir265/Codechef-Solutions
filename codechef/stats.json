@@ -109,6 +109,15 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
+      "Programming - Identical Binary Trees": {
+        "category": "star1",
+        "date": "2026-10-22T17:52:09.861Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - InOrder Traversal": {
         "category": "star1",
         "date": "2026-10-19T11:13:33.416Z",
@@ -298,18 +307,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - Identical Binary Trees": {
+      "Programming - Insertion in Doubly Linked List": {
         "difficulty": "1",
         "rating": 1,
         "stars": "0★",
         "tier": "Beginner Level",
         "category": "star1",
         "displayText": "1 (Beginner)",
-        "date": "2026-10-22T17:52:09.861Z"
+        "date": "2026-10-24T10:48:08.461Z"
       }
     },
-    "solved": 34,
-    "star1": 14,
+    "solved": 35,
+    "star1": 15,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
