@@ -100,6 +100,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "Programming - Book Store Inventory Management System": {
+        "category": "star1",
+        "date": "2026-10-24T17:22:33.973Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Create BST from given sorted array": {
         "category": "star1",
         "date": "2026-10-20T17:30:21.186Z",
@@ -343,18 +352,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - Book Store Inventory Management System": {
+      "Programming - Chef Circular Search": {
         "difficulty": "1",
         "rating": 1,
         "stars": "0★",
         "tier": "Beginner Level",
         "category": "star1",
         "displayText": "1 (Beginner)",
-        "date": "2026-10-24T17:22:33.973Z"
+        "date": "2026-10-25T18:13:05.476Z"
       }
     },
-    "solved": 39,
-    "star1": 19,
+    "solved": 40,
+    "star1": 20,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
