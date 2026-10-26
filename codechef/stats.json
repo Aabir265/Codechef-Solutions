@@ -181,6 +181,15 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
+      "Programming - NGE": {
+        "category": "star1",
+        "date": "2026-10-26T16:55:37.005Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Remove Duplicates from Sorted List": {
         "category": "star1",
         "date": "2026-10-24T12:19:11.592Z",
@@ -361,18 +370,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - NGE": {
+      "Programming - BST Two Sum": {
         "difficulty": "1",
         "rating": 1,
         "stars": "0★",
         "tier": "Beginner Level",
         "category": "star1",
         "displayText": "1 (Beginner)",
-        "date": "2026-10-26T16:55:37.005Z"
+        "date": "2026-10-26T17:06:51.611Z"
       }
     },
-    "solved": 41,
-    "star1": 21,
+    "solved": 42,
+    "star1": 22,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
