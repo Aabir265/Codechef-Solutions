@@ -1,0 +1,85 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct Node {
+    int data;
+    Node *left, *right;
+
+    Node(int x) {
+        data = x;
+        left = right = NULL;
+    }
+};
+
+Node* nodes[100001];
+bool child[100001];
+int arr[10001];
+int counti = 0;
+
+void inorder(Node* root) {
+    if (root == NULL)
+        return;
+
+    inorder(root->left);
+    arr[counti++] = root->data;
+    inorder(root->right);
+}
+
+int main() {
+    int N, S;
+    cin >> N >> S;
+
+    for (int i = 0; i < N - 1; i++) {
+        int p, c;
+        char dir;
+        cin >> p >> c >> dir;
+
+        if (nodes[p] == NULL)
+            nodes[p] = new Node(p);
+
+        if (nodes[c] == NULL)
+            nodes[c] = new Node(c);
+
+        if (dir == 'L')
+            nodes[p]->left = nodes[c];
+        else
+            nodes[p]->right = nodes[c];
+
+        child[c] = true;
+    }
+
+    Node* root = NULL;
+
+    for (int i = 1; i <= 100000; i++) {
+        if (nodes[i] != NULL && child[i] == false) {
+            root = nodes[i];
+            break;
+        }
+    }
+
+    inorder(root);
+
+    int i = 0;
+    int j = counti - 1;
+
+    while (i < j) {
+        int sum = arr[i] + arr[j];
+
+        if (sum == S) {
+            cout << "YES";
+            return 0;
+        }
+        else if (sum < S) {
+            i++;
+        }
+        else {
+            j--;
+        }
+    }
+
+    cout << "NO";
+
+    return 0;
+    // your code goes here
+
+}
