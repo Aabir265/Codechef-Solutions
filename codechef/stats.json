@@ -109,6 +109,15 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
+      "Programming - Chef Circular Search": {
+        "category": "star1",
+        "date": "2026-10-25T18:13:05.476Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Create BST from given sorted array": {
         "category": "star1",
         "date": "2026-10-20T17:30:21.186Z",
@@ -352,18 +361,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - Chef Circular Search": {
+      "Programming - NGE": {
         "difficulty": "1",
         "rating": 1,
         "stars": "0★",
         "tier": "Beginner Level",
         "category": "star1",
         "displayText": "1 (Beginner)",
-        "date": "2026-10-25T18:13:05.476Z"
+        "date": "2026-10-26T16:55:37.005Z"
       }
     },
-    "solved": 40,
-    "star1": 20,
+    "solved": 41,
+    "star1": 21,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
