@@ -1,6 +1,15 @@
 {
   "codechef": {
     "shas": {
+      "ADSFKJ03 - What will be the indexes of the children of a node stored at index $6$ in an array representing a binary tree": {
+        "category": "star1",
+        "date": "2026-11-03T16:54:18.567Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "JWHEFQ173 - What is the time complexity of merging two arrays with lengths n and m": {
         "category": "star1",
         "date": "2026-10-19T17:11:20.437Z",
@@ -379,18 +388,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "ADSFKJ03 - What will be the indexes of the children of a node stored at index $6$ in an array representing a binary tree": {
+      "ASDWER03 - Choose the Kth Largest element": {
         "difficulty": "Difficulty: Easy",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Difficulty: Easy",
-        "date": "2026-11-03T16:54:18.567Z"
+        "date": "2026-11-03T17:32:45.688Z"
       }
     },
-    "solved": 43,
-    "star1": 23,
+    "solved": 44,
+    "star1": 24,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
