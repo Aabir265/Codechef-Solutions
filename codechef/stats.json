@@ -100,6 +100,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "Programming - BST Two Sum": {
+        "category": "star1",
+        "date": "2026-10-26T17:06:51.611Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Book Store Inventory Management System": {
         "category": "star1",
         "date": "2026-10-24T17:22:33.973Z",
@@ -370,18 +379,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - BST Two Sum": {
-        "difficulty": "1",
-        "rating": 1,
-        "stars": "0★",
-        "tier": "Beginner Level",
+      "ADSFKJ03 - What will be the indexes of the children of a node stored at index $6$ in an array representing a binary tree": {
+        "difficulty": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level",
         "category": "star1",
-        "displayText": "1 (Beginner)",
-        "date": "2026-10-26T17:06:51.611Z"
+        "displayText": "Difficulty: Easy",
+        "date": "2026-11-03T16:54:18.567Z"
       }
     },
-    "solved": 42,
-    "star1": 22,
+    "solved": 43,
+    "star1": 23,
     "star2_3": 19,
     "star4_5": 0,
     "star6_7": 1
