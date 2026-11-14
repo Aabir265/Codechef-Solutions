@@ -1,0 +1,1 @@
+In a nested try-catch structure, when an exception occurs, the compiler first checks the specific try block where the exception was raised. It then looks for the corresponding catch block in that same level. If no matching catch block is found there, it propagates the exception up to the outer try-catch blocks in the hierarchy until it finds an appropriate handler.
