@@ -127,6 +127,15 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
+      "OPCPP171 - Select the correct option.": {
+        "category": "star1",
+        "date": "2026-11-14T13:48:23.417Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "Programming - BST Two Sum": {
         "category": "star1",
         "date": "2026-10-26T17:06:51.611Z",
@@ -406,18 +415,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "OPCPP171 - Select the correct option.": {
-        "difficulty": "Difficulty: Easy",
-        "rating": null,
-        "stars": "1★",
-        "tier": "1★ Beginner Level",
+      "Programming - Handling Exceptional Inputs": {
+        "difficulty": "1",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level",
         "category": "star1",
-        "displayText": "Difficulty: Easy",
-        "date": "2026-11-14T13:48:23.417Z"
+        "displayText": "1 (Beginner)",
+        "date": "2026-11-14T15:14:28.137Z"
       }
     },
-    "solved": 46,
-    "star1": 25,
+    "solved": 47,
+    "star1": 26,
     "star2_3": 20,
     "star4_5": 0,
     "star6_7": 1
