@@ -1,0 +1,1 @@
+Variables declared inside an inner try block are local to that block and cannot be accessed in the outer try block or other inner blocks. This helps limit the scope of variables related to error handling.
