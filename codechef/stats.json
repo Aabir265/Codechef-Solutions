@@ -118,6 +118,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "OPCPP170 - Select the correct option.": {
+        "category": "star2_3",
+        "date": "2026-11-14T13:47:42.799Z",
+        "difficulty": "Difficulty: Medium",
+        "displayText": "Difficulty: Medium",
+        "rating": null,
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level"
+      },
       "Programming - BST Two Sum": {
         "category": "star1",
         "date": "2026-10-26T17:06:51.611Z",
@@ -397,18 +406,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "OPCPP170 - Select the correct option.": {
-        "difficulty": "Difficulty: Medium",
+      "OPCPP171 - Select the correct option.": {
+        "difficulty": "Difficulty: Easy",
         "rating": null,
-        "stars": "2★-3★",
-        "tier": "2★-3★ Level",
-        "category": "star2_3",
-        "displayText": "Difficulty: Medium",
-        "date": "2026-11-14T13:47:42.799Z"
+        "stars": "1★",
+        "tier": "1★ Beginner Level",
+        "category": "star1",
+        "displayText": "Difficulty: Easy",
+        "date": "2026-11-14T13:48:23.417Z"
       }
     },
-    "solved": 45,
-    "star1": 24,
+    "solved": 46,
+    "star1": 25,
     "star2_3": 20,
     "star4_5": 0,
     "star6_7": 1
