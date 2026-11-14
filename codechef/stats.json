@@ -10,6 +10,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "ASDWER03 - Choose the Kth Largest element": {
+        "category": "star1",
+        "date": "2026-11-03T17:32:45.688Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "JWHEFQ173 - What is the time complexity of merging two arrays with lengths n and m": {
         "category": "star1",
         "date": "2026-10-19T17:11:20.437Z",
@@ -388,19 +397,19 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "ASDWER03 - Choose the Kth Largest element": {
-        "difficulty": "Difficulty: Easy",
+      "OPCPP170 - Select the correct option.": {
+        "difficulty": "Difficulty: Medium",
         "rating": null,
-        "stars": "1★",
-        "tier": "1★ Beginner Level",
-        "category": "star1",
-        "displayText": "Difficulty: Easy",
-        "date": "2026-11-03T17:32:45.688Z"
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level",
+        "category": "star2_3",
+        "displayText": "Difficulty: Medium",
+        "date": "2026-11-14T13:47:42.799Z"
       }
     },
-    "solved": 44,
+    "solved": 45,
     "star1": 24,
-    "star2_3": 19,
+    "star2_3": 20,
     "star4_5": 0,
     "star6_7": 1
   }
