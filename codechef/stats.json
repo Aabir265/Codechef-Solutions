@@ -181,6 +181,15 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
+      "Programming - Handling Exceptional Inputs": {
+        "category": "star1",
+        "date": "2026-11-14T15:14:28.137Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Height Balanced Binary Tree": {
         "category": "star1",
         "date": "2026-10-19T11:48:11.608Z",
@@ -415,18 +424,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - Handling Exceptional Inputs": {
-        "difficulty": "1",
-        "rating": 1,
-        "stars": "0★",
-        "tier": "Beginner Level",
+      "ADSFKJ06 - Rearrange the following code": {
+        "difficulty": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level",
         "category": "star1",
-        "displayText": "1 (Beginner)",
-        "date": "2026-11-14T15:14:28.137Z"
+        "displayText": "Difficulty: Easy",
+        "date": "2026-11-15T15:52:45.661Z"
       }
     },
-    "solved": 47,
-    "star1": 26,
+    "solved": 48,
+    "star1": 27,
     "star2_3": 20,
     "star4_5": 0,
     "star6_7": 1
