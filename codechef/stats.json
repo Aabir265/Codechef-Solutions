@@ -10,6 +10,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "ADSFKJ06 - Rearrange the following code": {
+        "category": "star1",
+        "date": "2026-11-15T15:52:45.661Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "ASDWER03 - Choose the Kth Largest element": {
         "category": "star1",
         "date": "2026-11-03T17:32:45.688Z",
@@ -424,18 +433,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "ADSFKJ06 - Rearrange the following code": {
+      "JWHEFQ403 - Select the correct option.": {
         "difficulty": "Difficulty: Easy",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Difficulty: Easy",
-        "date": "2026-11-15T15:52:45.661Z"
+        "date": "2026-11-16T16:34:32.667Z"
       }
     },
-    "solved": 48,
-    "star1": 27,
+    "solved": 49,
+    "star1": 28,
     "star2_3": 20,
     "star4_5": 0,
     "star6_7": 1
