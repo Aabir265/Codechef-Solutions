@@ -100,6 +100,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "JWHEFQ403 - Select the correct option.": {
+        "category": "star1",
+        "date": "2026-11-16T16:34:32.667Z",
+        "difficulty": "Difficulty: Easy",
+        "displayText": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "OOPS026 - Choose the correct option": {
         "category": "star2_3",
         "date": "2026-10-20T08:26:03.619Z",
@@ -433,19 +442,19 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "JWHEFQ403 - Select the correct option.": {
-        "difficulty": "Difficulty: Easy",
+      "JKQ36 - Choose the correct option": {
+        "difficulty": "Difficulty: Medium",
         "rating": null,
-        "stars": "1★",
-        "tier": "1★ Beginner Level",
-        "category": "star1",
-        "displayText": "Difficulty: Easy",
-        "date": "2026-11-16T16:34:32.667Z"
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level",
+        "category": "star2_3",
+        "displayText": "Difficulty: Medium",
+        "date": "2026-11-17T07:08:02.303Z"
       }
     },
-    "solved": 49,
+    "solved": 50,
     "star1": 28,
-    "star2_3": 20,
+    "star2_3": 21,
     "star4_5": 0,
     "star6_7": 1
   }
