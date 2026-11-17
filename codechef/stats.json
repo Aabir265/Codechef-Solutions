@@ -37,6 +37,15 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
+      "JKQ37 - Choose the correct option": {
+        "category": "star2_3",
+        "date": "2026-11-17T07:09:20.765Z",
+        "difficulty": "Difficulty: Medium",
+        "displayText": "Difficulty: Medium",
+        "rating": null,
+        "stars": "2★-3★",
+        "tier": "2★-3★ Level"
+      },
       "JWHEFQ173 - What is the time complexity of merging two arrays with lengths n and m": {
         "category": "star1",
         "date": "2026-10-19T17:11:20.437Z",
@@ -451,19 +460,19 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "JKQ37 - Choose the correct option": {
+      "JKQ38 - Choose the correct option": {
         "difficulty": "Difficulty: Medium",
         "rating": null,
         "stars": "2★-3★",
         "tier": "2★-3★ Level",
         "category": "star2_3",
         "displayText": "Difficulty: Medium",
-        "date": "2026-11-17T07:09:20.765Z"
+        "date": "2026-11-17T07:10:24.333Z"
       }
     },
-    "solved": 51,
+    "solved": 52,
     "star1": 28,
-    "star2_3": 22,
+    "star2_3": 23,
     "star4_5": 0,
     "star6_7": 1
   }
