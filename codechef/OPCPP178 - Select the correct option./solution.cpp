@@ -1,0 +1,1 @@
+The join() method is used to ensure that the calling thread waits for the specified thread to complete its execution before continuing.
