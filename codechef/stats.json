@@ -55,6 +55,15 @@
         "stars": "6★-7★",
         "tier": "6★-7★ Level"
       },
+      "JKQ04 - Choose the correct option": {
+        "category": "star6_7",
+        "date": "2026-11-19T18:02:58.637Z",
+        "difficulty": "Difficulty: Hard",
+        "displayText": "Difficulty: Hard",
+        "rating": null,
+        "stars": "6★-7★",
+        "tier": "6★-7★ Level"
+      },
       "JKQ36 - Choose the correct option": {
         "category": "star2_3",
         "date": "2026-11-17T07:08:02.303Z",
@@ -595,20 +604,20 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "JKQ04 - Choose the correct option": {
+      "JKQ05 - Choose the correct option": {
         "difficulty": "Difficulty: Hard",
         "rating": null,
         "stars": "6★-7★",
         "tier": "6★-7★ Level",
         "category": "star6_7",
         "displayText": "Difficulty: Hard",
-        "date": "2026-11-19T18:02:58.637Z"
+        "date": "2026-11-19T18:05:15.986Z"
       }
     },
-    "solved": 67,
+    "solved": 68,
     "star1": 32,
     "star2_3": 30,
     "star4_5": 0,
-    "star6_7": 5
+    "star6_7": 6
   }
 }
