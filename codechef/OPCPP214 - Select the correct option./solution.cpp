@@ -1,0 +1,1 @@
+Function template specialization is used to provide a specialized implementation for a specific data type, making it option B.
