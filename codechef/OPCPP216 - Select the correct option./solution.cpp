@@ -1,0 +1,1 @@
+You should explicitly overload a generic function when you want to provide specialized implementations for specific data types within the same function, making option C correct.
