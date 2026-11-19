@@ -307,6 +307,15 @@
         "stars": "0★",
         "tier": "Beginner Level"
       },
+      "Programming - How to use function templates": {
+        "category": "star1",
+        "date": "2026-11-17T08:02:05.366Z",
+        "difficulty": "1",
+        "displayText": "1 (Beginner)",
+        "rating": 1,
+        "stars": "0★",
+        "tier": "Beginner Level"
+      },
       "Programming - Identical Binary Trees": {
         "category": "star1",
         "date": "2026-10-22T17:52:09.861Z",
@@ -532,18 +541,18 @@
         "stars": "2★-3★",
         "tier": "2★-3★ Level"
       },
-      "Programming - How to use function templates": {
-        "difficulty": "1",
-        "rating": 1,
-        "stars": "0★",
-        "tier": "Beginner Level",
+      "OPCPP178 - Select the correct option.": {
+        "difficulty": "Difficulty: Easy",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level",
         "category": "star1",
-        "displayText": "1 (Beginner)",
-        "date": "2026-11-17T08:02:05.366Z"
+        "displayText": "Difficulty: Easy",
+        "date": "2026-11-19T16:21:58.950Z"
       }
     },
-    "solved": 60,
-    "star1": 30,
+    "solved": 61,
+    "star1": 31,
     "star2_3": 28,
     "star4_5": 0,
     "star6_7": 2
